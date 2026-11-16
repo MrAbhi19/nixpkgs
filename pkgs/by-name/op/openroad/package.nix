@@ -44,7 +44,7 @@
 
 stdenv.mkDerivation (finalAttrs: {
   pname = "openroad";
-  version = "26Q3";
+  version = "26Q4";
 
   __structuredAttrs = true;
   strictDeps = true;
@@ -54,7 +54,7 @@ stdenv.mkDerivation (finalAttrs: {
     repo = "OpenROAD";
     tag = finalAttrs.version;
     fetchSubmodules = true;
-    hash = "sha256-jElAb8mM2lhGwa8wTONfQgs7esL9p1beAReJXAWns9o=";
+    hash = "sha256-jElAb8mM2lhGwa8wTONfQgs7esL9p1beAkeJXAWns9o=";
   };
 
   nativeBuildInputs = [
